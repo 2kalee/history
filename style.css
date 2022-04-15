@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px;
+}
+section:nth-child(odd){
+    background: #d7f5fa;
+}
+section:nth-child(even){
+    background: #ffe9ca;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: #a691f2;
+}
+nav a{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav a:hover,
+section#n1:hover~nav a[href="#n1"],
+section#n2:hover~nav a[href="#n2"],
+section#n3:hover~nav a[href="#n3"],
+section#n4:hover~nav a[href="#n4"],
+section#n5:hover~nav a[href="#n5"],
+section#n6:hover~nav a[href="#n6"],
+section#n7:hover~nav a[href="#n7"],
+section#n8:hover~nav a[href="#n8"],
+section#n9:hover~nav a[href="#n9"],
+section#n10:hover~nav a[href="#n10"],
+section#n11:hover~nav a[href="#n11"],
+section#n12:hover~nav a[href="#n12"]
+{
+  background: #d7f5fa ;
+  color: #0e3e44;
+}
+nav a:active{
+    background: #7af6ab;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+*img{
+    border: black;
+}
+.End{
+    height: 300px;
+}
+
+.war{
+    height: 900px;
+}
